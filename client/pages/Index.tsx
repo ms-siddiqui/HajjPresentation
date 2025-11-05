@@ -227,9 +227,9 @@ function SectionTitle({ children, subtitle, icon }: { children: React.ReactNode;
   return (
     <div className="text-center py-6 sm:py-8">
       {icon ? <div className="mb-2 flex justify-center text-primary">{icon}</div> : null}
-      <h2 className="text-2xl font-bold tracking-tight text-primary sm:text-3xl md:text-4xl 2xl:text-5xl">{children}</h2>
+      <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl md:text-4xl 2xl:text-5xl">{children}</h2>
       {subtitle ? (
-        <p className="mx-auto mt-2 max-w-2xl text-sm text-muted-foreground sm:text-base md:text-lg">{subtitle}</p>
+        <p className="mx-auto mt-2 max-w-2xl text-sm text-muted-foreground sm:text-black md:text-lg">{subtitle}</p>
       ) : null}
     </div>
   );
@@ -773,7 +773,7 @@ function QiblaAzkarSlide() {
             time="After Fajr until Sunrise"
             items={[
               { ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", en: "I seek refuge in Allah from Satan the accursed", times: "3" },
-              { ar: "بِسْمِ اللهِ الَّذِ�� لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing", times: "3" },
+              { ar: "بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing", times: "3" },
               { ar: "رَضِيتُ بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ رَسُولًا", en: "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad as my messenger", times: "3" },
             ]}
             active={morningActive}
