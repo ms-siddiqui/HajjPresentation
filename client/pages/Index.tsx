@@ -333,7 +333,7 @@ function HealthSlide() {
   }, []);
 
   const tipsA = [
-    ["💧", "Stay Hydrated", "ہر 15-20 منٹ میں پانی پیتے رہیں"],
+    ["💧", "Stay Hydrated", "ہ�� 15-20 منٹ میں پانی پیتے رہیں"],
     ["☂️", "Use Sun Protection", "چھتری، ٹوپى اور سن اسکرین استعمال کریں"],
     ["👕", "Wear Light Colors", "ہلکے اور ڈھیلے کپڑے پہنیں"],
     ["⏰", "Rest During Peak Hours", "دوپہر 11 سے 4 بجے سوری س�� بچیں"],
@@ -467,6 +467,13 @@ function PrayerTimesSlide() {
 
   return (
     <div className="min-h-[calc(100vh-88px)] flex flex-col justify-center py-8">
+      <div className="flex justify-center mb-4">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F5205966bc3d341b29b62dd912265a404?format=webp&width=800"
+          alt="Prayer times icon"
+          className="h-16 w-auto object-contain sm:h-20"
+        />
+      </div>
       <SectionTitle children="Today's Prayer Times" subtitle="مواقيت الصلاة اليوم" />
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-6">
         {data.map((p, i) => (
@@ -1150,7 +1157,7 @@ function FoodMenuSlide() {
           <p>• Drink 8 cups of water daily • روزانہ 8 پانی کے گلاس پیں</p>
           <p>• Avoid overeating before stoning the Jamarat  •  تجنّب الأكل حتى التخمة قبل رمي الجمرات</p>
           <p>• If you feel unwell, seek help immediately • اگر آپ بیمار محسوس کریں تو فوری طور پر مدد مانگیں</p>
-          <p>• Don’t forget to say Bismillah before eating, and Alhamdulillah alladhi at‘amana wa saqana after • لا تنسَ أن تقول بسم الله قبل الأكل، والحمد لله الذي أطعمنا وسقانا بعده</p>
+          <p>• Don’t forget to say Bismillah before eating, and Alhamdulillah alladhi at��amana wa saqana after • لا تنسَ أن تقول بسم الله قبل الأكل، والحمد لله الذي أطعمنا وسقانا بعده</p>
         </div>
       </Card>
     </div>
