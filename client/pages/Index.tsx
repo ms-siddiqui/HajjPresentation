@@ -333,7 +333,7 @@ function HealthSlide() {
   }, []);
 
   const tipsA = [
-    ["💧", "Stay Hydrated", "ہ�� 15-20 منٹ میں پانی پیتے رہیں"],
+    ["💧", "Stay Hydrated", "ہر 15-20 منٹ میں پانی پیتے رہیں"],
     ["☂️", "Use Sun Protection", "چھتری، ٹوپى اور سن اسکرین استعمال کریں"],
     ["👕", "Wear Light Colors", "ہلکے اور ڈھیلے کپڑے پہنیں"],
     ["⏰", "Rest During Peak Hours", "دوپہر 11 سے 4 بجے سوری س�� بچیں"],
@@ -467,12 +467,14 @@ function PrayerTimesSlide() {
 
   return (
     <div className="min-h-[calc(100vh-88px)] flex flex-col justify-center py-8">
-      <div className="flex justify-center mb-4">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F5205966bc3d341b29b62dd912265a404?format=webp&width=800"
-          alt="Prayer times icon"
-          className="h-16 w-auto object-contain sm:h-20"
-        />
+      <div className="flex justify-center mb-6">
+        <div className="relative p-6 sm:p-8 rounded-full bg-white/40 backdrop-blur-md shadow-2xl border border-white/60">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F5205966bc3d341b29b62dd912265a404?format=webp&width=800"
+            alt="Prayer times icon"
+            className="h-20 w-auto object-contain sm:h-28 md:h-32"
+          />
+        </div>
       </div>
       <SectionTitle children="Today's Prayer Times" subtitle="مواقيت الصلاة اليوم" />
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-6">
@@ -776,7 +778,7 @@ function QiblaAzkarSlide() {
         <div className="order-1 col-span-2 flex flex-col gap-4 lg:order-2">
           <h2 className="text-xl font-semibold text-primary">Morning & Evening Azkar • صبح و شام کے اذکار</h2>
           <AzkarBlock
-            title="Morning Azkar - صبح کے اذکار"
+            title="Morning Azkar - ��بح کے اذکار"
             time="After Fajr until Sunrise"
             items={[
               { ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", en: "I seek refuge in Allah from Satan the accursed", times: "3" },
@@ -894,7 +896,7 @@ function TafweejSlide() {
               </li>
             </ul>
             <div className="mt-3 rounded-xl border-l-4 border-primary bg-muted/40 p-4">
-              <p className="text-sm"><strong>Advisory • تنبيه:</strong> Keep right, follow marshals’ signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے اشاروں پر عمل کریں، اور 2-3 افراد کے درمیان فاصلہ برقرار رکھیں </p>
+              <p className="text-sm"><strong>Advisory ��� تنبيه:</strong> Keep right, follow marshals’ signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے اشاروں پر عمل کریں، اور 2-3 افراد کے درمیان فاصلہ برقرار رکھیں </p>
             </div>
           </Card>
         </div>
@@ -1157,7 +1159,7 @@ function FoodMenuSlide() {
           <p>• Drink 8 cups of water daily • روزانہ 8 پانی کے گلاس پیں</p>
           <p>• Avoid overeating before stoning the Jamarat  •  تجنّب الأكل حتى التخمة قبل رمي الجمرات</p>
           <p>• If you feel unwell, seek help immediately • اگر آپ بیمار محسوس کریں تو فوری طور پر مدد مانگیں</p>
-          <p>• Don’t forget to say Bismillah before eating, and Alhamdulillah alladhi at��amana wa saqana after • لا تنسَ أن تقول بسم الله قبل الأكل، والحمد لله الذي أطعمنا وسقانا بعده</p>
+          <p>• Don’t forget to say Bismillah before eating, and Alhamdulillah alladhi at‘amana wa saqana after • لا تنسَ أن تقول بسم الله قبل الأكل، والحمد لله الذي أطعمنا وسقانا بعده</p>
         </div>
       </Card>
     </div>
