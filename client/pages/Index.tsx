@@ -309,7 +309,7 @@ function WeatherSlide() {
               <>
                 <div className="my-2 text-5xl font-black text-red-600 sm:text-6xl 2xl:text-7xl">{Math.round(t.temp)}°C</div>
                 <div className="text-sm text-muted-foreground">
-                  {t.condition} • Feels like {Math.round(t.feelsLike)}°C • محسوس ہوتا ہے {Math.round(t.feelsLike)} ڈگری
+                  {t.condition} • Feels like {Math.round(t.feelsLike)}°C • ��حسوس ہوتا ہے {Math.round(t.feelsLike)} ڈگری
                 </div>
               </>
             )}
@@ -393,7 +393,7 @@ function EmergencySlide() {
         <h3 className="mb-3 text-xl font-semibold text-primary">Important Reminders - اہم یادیں</h3>
         <div className="space-y-2 text-sm md:text-base">
           <p>• Keep emergency numbers saved in your phone • اپنے فون میں ایمرجنسی نمبر محفوظ رکھیں</p>
-          <p>• Always carry your ID and medical information • ہمیشہ اپنی شناخت اور طبی معلومات اپنے ساتھ رکھیں</p>
+          <p>• Always carry your ID and medical information • ہمیشہ اپنی شناخت اور طبی معلومات اپنے ساتھ رکھی��</p>
           <p>• If you feel unwell, seek help immediately • اگر آپ بیمار محسوس کریں تو فوری طور پر مدد مانگیں</p>
         </div>
       </Card>
@@ -473,6 +473,7 @@ function PrayerTimesSlide() {
             src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F3a69dfd02e154aea9ec04ef2c6d0b08f?format=webp&width=800"
             alt="Prayer times icon"
             className="h-20 w-auto object-contain sm:h-28 md:h-32"
+            style={{ mixBlendMode: "darken" }}
           />
         </div>
       </div>
@@ -791,7 +792,7 @@ function QiblaAzkarSlide() {
             time="After Fajr until Sunrise"
             items={[
               { ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", en: "I seek refuge in Allah from Satan the accursed", times: "3" },
-              { ar: "بِسْمِ اللهِ الَّذِ�� لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing", times: "3" },
+              { ar: "بِسْمِ اللهِ الَّذِ�� لَا يَضُرُّ مَعَ اسْمِهِ شَ��ْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing", times: "3" },
               { ar: "رَضِيتُ بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ رَسُولًا", en: "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad as my messenger", times: "3" },
             ]}
             active={morningActive}
@@ -803,7 +804,7 @@ function QiblaAzkarSlide() {
             items={[
               { ar: "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ رَبِّ الْعَالَمِينَ", en: "We have reached evening and the dominion belongs to Allah, Lord of the worlds", times: "1" },
               { ar: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ", en: "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant", times: "1" },
-              { ar: "سُبْحَانَ اللَّه�� وَبِحَمْدِهِ", en: "Glory is to Allah and praise is to Him", times: "100" },
+              { ar: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ", en: "Glory is to Allah and praise is to Him", times: "100" },
             ]}
             active={!morningActive}
             onToggle={() => setMorningActive((v) => !v)}
