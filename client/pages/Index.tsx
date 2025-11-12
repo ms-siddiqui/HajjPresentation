@@ -75,7 +75,7 @@ function getTimeOfDayGradient(hour: number) {
     return "linear-gradient(180deg, #FFE8C7 0%, #93C5FD 45%, #3B82F6 100%)"; // dawn peach -> sky blue
   }
   if (hour >= 12 && hour < 18) {
-    return "linear-gradient(180deg, rgba(125,211,252,0.30) 0%, rgba(56,189,248,0.30) 50%, rgba(14,165,233,0.30) 100%), url('https://cdn.builder.io/api/v1/image/assets%2F875985ab088f4f609aed4b19889631ac%2F8d051495d9ee4fc2a1ebe613da7bb9ef?format=webp&width=1600') center/cover no-repeat"; // afternoon sky image with soft overlay
+    return "linear-gradient(180deg, rgba(125,211,252,0.30) 0%, rgba(56,189,248,0.30) 50%, rgba(14,165,233,0.30) 100%), url('https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2Fccf43bfeb3004af7af174658f67fc26d?format=webp&width=800') center/cover no-repeat"; // afternoon sky image with soft overlay
   }
   return "linear-gradient(180deg, #F59E0B 0%, #EF4444 45%, #1E3A8A 100%)"; // sunset -> deep blue
 }
@@ -778,7 +778,7 @@ function QiblaAzkarSlide() {
         <div className="order-1 col-span-2 flex flex-col gap-4 lg:order-2">
           <h2 className="text-xl font-semibold text-primary">Morning & Evening Azkar • صبح و شام کے اذکار</h2>
           <AzkarBlock
-            title="Morning Azkar - ��بح کے اذکار"
+            title="Morning Azkar - صبح کے اذکار"
             time="After Fajr until Sunrise"
             items={[
               { ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", en: "I seek refuge in Allah from Satan the accursed", times: "3" },
@@ -896,7 +896,7 @@ function TafweejSlide() {
               </li>
             </ul>
             <div className="mt-3 rounded-xl border-l-4 border-primary bg-muted/40 p-4">
-              <p className="text-sm"><strong>Advisory ��� تنبيه:</strong> Keep right, follow marshals’ signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے اشاروں پر عمل کریں، اور 2-3 افراد کے درمیان فاصلہ برقرار رکھیں </p>
+              <p className="text-sm"><strong>Advisory • تنبيه:</strong> Keep right, follow marshals’ signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے اشاروں پر عمل کریں، اور 2-3 افراد کے درمی��ن فاصلہ برقرار رکھیں </p>
             </div>
           </Card>
         </div>
