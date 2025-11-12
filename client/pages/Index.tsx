@@ -331,7 +331,7 @@ function WeatherSlide() {
     }[]
   >([
     {
-      name: "Mina ��نى",
+      name: "Mina منى",
       location: "Mina",
       temp: 0,
       feelsLike: 0,
@@ -438,8 +438,7 @@ function WeatherSlide() {
                   {Math.round(t.temp)}°C
                 </div>
                 <div className="text-sm text-muted-foreground">
-                  {t.condition} • Feels like {Math.round(t.feelsLike)}°C •
-                  ��حسوس ہوتا ہے {Math.round(t.feelsLike)} ڈگری
+                  {t.condition} • Feels like {Math.round(t.feelsLike)}°C • محسوس ہوتا ہے {Math.round(t.feelsLike)} ڈگری
                 </div>
               </>
             )}
@@ -469,7 +468,7 @@ function HealthSlide() {
     ["💧", "Stay Hydrated", "ہر 15-20 منٹ میں پانی پیتے رہیں"],
     ["☂️", "Use Sun Protection", "چھتری، ٹوپى اور سن اسکرین استعمال کریں"],
     ["👕", "Wear Light Colors", "ہلکے اور ڈھیلے کپڑے پہنیں"],
-    ["⏰", "Rest During Peak Hours", "دوپہر 11 سے 4 بجے سوری س�� بچیں"],
+    ["⏰", "Rest During Peak Hours", "دوپہر 11 سے 4 اوقات میں آرام کریں"],
   ];
   const tipsB = [
     ["🍎", "Eat Light Meals", "ہلکے کھانے اور تازہ پھل کھائیں"],
@@ -549,10 +548,7 @@ function EmergencySlide() {
             • Keep emergency numbers saved in your phone • اپنے فون میں ایمرجنسی
             نمبر محفوظ رکھیں
           </p>
-          <p>
-            • Always carry your ID and medical information • ہمیشہ اپنی شناخت
-            اور طبی معلومات اپنے ساتھ رکھی��
-          </p>
+            <p>• Always carry your ID and medical information • ہمیشہ اپنی شناخت اور طبی معلومات اپنے ساتھ رکھیں</p>
           <p>
             • If you feel unwell, seek help immediately • اگر آپ بیمار محسوس
             کریں تو فوری طور پر مدد مانگیں
@@ -1036,7 +1032,7 @@ function QiblaAzkarSlide() {
                   N • شمال
                 </span>
                 <span className="absolute right-0 top-1/2 -translate-y-1/2 text-xs font-semibold text-primary">
-                  E • مش��ق
+                  E • مشرق
                 </span>
                 <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-xs font-semibold text-primary">
                   S • جنوب
@@ -1246,12 +1242,7 @@ function TafweejSlide() {
               </li>
             </ul>
             <div className="mt-3 rounded-xl border-l-4 border-primary bg-muted/40 p-4">
-              <p className="text-sm">
-                <strong>Advisory • تنبيه:</strong> Keep right, follow marshals’
-                signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے
-                اشاروں پر عمل کریں، اور 2-3 افراد کے درمی��ن فاصلہ برقرار
-                رکھیں{" "}
-              </p>
+              <p className="text-sm"><strong>Advisory • تنبيه:</strong> Keep right, follow marshals’ signs, and maintain 2‑3 person spacing • دائیں رہیں، مارشلز کے اشاروں پر عمل کریں، اور 2-3 افراد کے درمیان فاصلہ برقرار رکھیں </p>
             </div>
           </Card>
         </div>
@@ -1665,8 +1656,7 @@ function FoodMenuSlide() {
         <div className="space-y-2 text-sm md:text-base">
           <p>• Drink 8 cups of water daily • روزانہ 8 پانی کے گلاس پیں</p>
           <p>
-            • Avoid overeating before stoning the Jamarat • تجنّب الأكل حتى
-            التخمة قبل رمي الجمرات
+            • Avoid overeating before stoning the Jamarat • جمارات پر پتھر پھینکنے سے پہلے زیادہ کھانے سے گریز کریں
           </p>
           <p>
             • If you feel unwell, seek help immediately • اگر آپ بیمار محسوس
