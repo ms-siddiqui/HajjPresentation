@@ -1073,21 +1073,9 @@ function QiblaAzkarSlide() {
             title="Morning Azkar - صبح کے اذکار"
             time="After Fajr until Sunrise"
             items={[
-              {
-                ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
-                en: "I seek refuge in Allah from Satan the accursed",
-                times: "3",
-              },
-              {
-                ar: "بِسْمِ اللهِ الَّذِ�� لَا يَضُرُّ مَعَ اسْمِهِ شَ��ْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
-                en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing",
-                times: "3",
-              },
-              {
-                ar: "رَضِيتُ بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ رَسُولًا",
-                en: "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad as my messenger",
-                times: "3",
-              },
+              { ar: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", en: "I seek refuge in Allah from Satan the accursed", times: "3" },
+              { ar: "بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ", en: "In the name of Allah, nothing can harm with His name on earth or in heaven. He is All‑Hearing, All‑Knowing", times: "3" },
+              { ar: "رَضِيتُ بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ رَسُولًا", en: "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad as my messenger", times: "3" },
             ]}
             active={morningActive}
             onToggle={() => setMorningActive((v) => !v)}
@@ -1242,10 +1230,7 @@ function TafweejSlide() {
           </Card>
 
           <Card variant="accent" className="p-6">
-            <h3 className="mb-2 text-xl font-semibold text-primary flex items-center gap-2">
-              <TrafficCone className="h-5 w-5" /> Path Status & Advisories •
-              را��تے کی صورتحال
-            </h3>
+            <h3 className="mb-2 text-xl font-semibold text-primary flex items-center gap-2"><TrafficCone className="h-5 w-5" /> Path Status & Advisories • راستے کی صورتحال</h3>
             <ul className="space-y-2 text-sm md:text-base">
               <li className="flex items-center justify-between gap-3">
                 <span>King Fahd Tunnel • کنگ فہد ٹنل</span>
