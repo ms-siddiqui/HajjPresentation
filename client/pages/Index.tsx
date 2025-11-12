@@ -77,7 +77,7 @@ function getTimeOfDayGradient(hour: number) {
   if (hour >= 12 && hour < 18) {
     return "linear-gradient(180deg, rgba(125,211,252,0.30) 0%, rgba(56,189,248,0.30) 50%, rgba(14,165,233,0.30) 100%), url('https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2Fccf43bfeb3004af7af174658f67fc26d?format=webp&width=800') center/cover no-repeat"; // afternoon sky image with soft overlay
   }
-  return "linear-gradient(180deg, #F59E0B 0%, #EF4444 45%, #1E3A8A 100%)"; // sunset -> deep blue
+  return "linear-gradient(180deg, rgba(245,158,11,0.25) 0%, rgba(239,68,68,0.25) 45%, rgba(30,58,138,0.25) 100%), url('https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F0fe9083401844b48b43135f452b34a97?format=webp&width=800') center/cover no-repeat"; // sunset sky image with overlay
 }
 
 function TimeOfDayOverlays({ hour }: { hour: number }) {
