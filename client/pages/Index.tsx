@@ -871,7 +871,7 @@ function TafweejSlide() {
           </Card>
 
           <Card variant="accent" className="p-6">
-            <h3 className="mb-2 text-xl font-semibold text-primary flex items-center gap-2"><TrafficCone className="h-5 w-5" /> Path Status & Advisories • را��تے کی صورتحال</h3>
+            <h3 className="mb-2 text-xl font-semibold text-primary flex items-center gap-2"><TrafficCone className="h-5 w-5" /> Path Status & Advisories • راستے کی صورتحال</h3>
             <ul className="space-y-2 text-sm md:text-base">
               <li className="flex items-center justify-between gap-3">
                 <span>King Fahd Tunnel • کنگ فہد ٹنل</span>
