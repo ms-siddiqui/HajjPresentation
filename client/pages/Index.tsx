@@ -248,7 +248,7 @@ function Card({ children, className = "", variant = "default" }: { children: Rea
 
 function WeatherSlide() {
   const [temps, setTemps] = useState<{ name: string; location: string; temp: number; feelsLike: number; condition: string }[]>([
-    { name: "Mina منى", location: "Mina", temp: 0, feelsLike: 0, condition: "Loading..." },
+    { name: "Mina ��نى", location: "Mina", temp: 0, feelsLike: 0, condition: "Loading..." },
     { name: "Arafat عرفات", location: "Arafat", temp: 0, feelsLike: 0, condition: "Loading..." },
     { name: "Makkah مكة", location: "Makkah", temp: 0, feelsLike: 0, condition: "Loading..." },
   ]);
@@ -729,6 +729,15 @@ function QiblaAzkarSlide() {
 
   return (
     <div className="min-h-[calc(100vh-88px)] flex flex-col justify-center py-8">
+      <div className="flex justify-center mb-6">
+        <div className="relative p-6 sm:p-8 rounded-full bg-white/40 backdrop-blur-md shadow-2xl border border-white/60">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F936c97c4e7574dcb98915cd7d21ce8f9?format=webp&width=800"
+            alt="Qibla direction logo"
+            className="h-20 w-auto object-contain sm:h-28 md:h-32"
+          />
+        </div>
+      </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <Card variant="accent" className="order-2 p-6 lg:order-1">
           <h3 className="mb-4 text-center text-2xl font-semibold text-primary">🕋 Qibla Direction • قبلہ کی سمت</h3>
@@ -757,7 +766,7 @@ function QiblaAzkarSlide() {
               </div>
               <div className="pointer-events-none absolute inset-0">
                 <span className="absolute left-1/2 top-0 -translate-x-1/2 text-xs font-semibold text-primary">N • شمال</span>
-                <span className="absolute right-0 top-1/2 -translate-y-1/2 text-xs font-semibold text-primary">E • مشرق</span>
+                <span className="absolute right-0 top-1/2 -translate-y-1/2 text-xs font-semibold text-primary">E • مش��ق</span>
                 <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-xs font-semibold text-primary">S • جنوب</span>
                 <span className="absolute left-0 top-1/2 -translate-y-1/2 text-xs font-semibold text-primary">W • مغرب</span>
               </div>
