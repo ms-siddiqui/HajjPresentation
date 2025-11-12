@@ -470,7 +470,7 @@ function PrayerTimesSlide() {
       <div className="flex justify-center mb-6">
         <div className="relative p-6 sm:p-8 rounded-full bg-white/40 backdrop-blur-md shadow-2xl border border-white/60">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F5205966bc3d341b29b62dd912265a404?format=webp&width=800"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fcb6a09a5e7a34258bfc759c4f32a4d0f%2F3a69dfd02e154aea9ec04ef2c6d0b08f?format=webp&width=800"
             alt="Prayer times icon"
             className="h-20 w-auto object-contain sm:h-28 md:h-32"
           />
@@ -803,7 +803,7 @@ function QiblaAzkarSlide() {
             items={[
               { ar: "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ رَبِّ الْعَالَمِينَ", en: "We have reached evening and the dominion belongs to Allah, Lord of the worlds", times: "1" },
               { ar: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ", en: "O Allah, You are my Lord, none has the right to be worshipped except You. You created me and I am Your servant", times: "1" },
-              { ar: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ", en: "Glory is to Allah and praise is to Him", times: "100" },
+              { ar: "سُبْحَانَ اللَّه�� وَبِحَمْدِهِ", en: "Glory is to Allah and praise is to Him", times: "100" },
             ]}
             active={!morningActive}
             onToggle={() => setMorningActive((v) => !v)}
